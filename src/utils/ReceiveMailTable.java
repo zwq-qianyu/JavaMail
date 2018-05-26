@@ -94,6 +94,7 @@ public class ReceiveMailTable extends Thread {
                         + "</strong></html>");
                 mails.add("<html><strong>" + map.get("senddate")
                         + "</strong></html>");
+                //System.out.println(map.get("hasAttach"));
                 mails.add("<html><strong>" + map.get("hasAttach")
                         + "</strong></html>");
                 list.add((String) map.get("ID"));
@@ -121,8 +122,10 @@ public class ReceiveMailTable extends Thread {
         String mailID = (String) linkedList.get(id);// 返回指定行对应的mailID号
         try {
             Map result = getmail.readMail(mailID);
-            message = result.get("content").toString();// 得到邮件内容
-            System.out.println(message);
+            //System.out.println(result);
+            message = result.get("sender").toString() + ";" + result.get("subject").toString() + ";" +result.get("content").toString();
+            //message = result.get("content").toString();// 得到邮件内容
+            //System.out.println(message);
         } catch (Exception e) {
             e.printStackTrace();
         }

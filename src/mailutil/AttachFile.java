@@ -18,13 +18,15 @@ public class AttachFile {
 
     // 邮件附件下载路径的选择
     public void choicePath(final String filename, final InputStream in) {
-        File f = new File(".");// 得到当前user工作目录
-        JFileChooser chooser = new JFileChooser(f);// 构造一个当前路径的文件选择器
+        /*File f = new File(".");// 得到当前user工作目录
+        JFileChooser chooser = new JFileChooser(f);// 构造一个当前路径的文件选择器*/
+        JFileChooser chooser = new JFileChooser();// 构造一个当前路径的文件选择器
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         if (chooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION) {// 如果选择确定键
             final File f1 = chooser.getSelectedFile();// 得到选择的文件
             new Thread() {// 开启新线程下载附件
                 public void run() {
+                    //System.out.println(f1.getPath());
                     downloadFile(f1.getPath() + "/" + filename, in);// 下载附件
                 }
             }.start();
@@ -46,8 +48,13 @@ public class AttachFile {
         // 文件名，in 输入流
         FileOutputStream out = null;// 输出流对象
         try {
-            out = new FileOutputStream(new File(filename));
+            //System.out.println("0000000000000000");
+            System.out.println(filename);
+            File dir = new File(filename);
+            out = new FileOutputStream(dir);
+            //System.out.println("AAAAAAAAAAAAAAAAAAAA");
             byte[] content = new byte[1024];
+            //System.out.println("BBBBBBBBBBBBBBB");
             int read = 0;
             while ((read = in.read(content)) != -1) {
                 out.write(content);
@@ -57,6 +64,7 @@ public class AttachFile {
         } catch (Exception e) {
             System.out.println("GetMail类中downloadFile方法  下载文件错误！");
             e.printStackTrace();
+            System.out.println(e);
         } finally {
             try {
                 if (out != null)

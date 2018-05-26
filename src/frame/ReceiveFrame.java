@@ -18,8 +18,13 @@ public class ReceiveFrame extends BaseReceiceFrame {
     }
 
     public void doubleClick(int selectRom) {// 双击事件的处理
-        mailContent.setText(ReceiveMailTable.readMail(ReceiveMailTable.list,
-                selectRom));
+        //System.out.println("AAAAAAAAA"+ReceiveMailTable.readMail(ReceiveMailTable.list, selectRom));
+        String[] message = ReceiveMailTable.readMail(ReceiveMailTable.list, selectRom).split(";");
+        String sender = message[0];
+        String subject = message[1];
+        String contents = message[2];
+        String text_content = "发件人：" + sender + "\n\r\n\r" + "主题: " + subject + "\n\r\n\r" + "内容：\n\r" + contents;
+        mailContent.setText(text_content);
     }
 
     // 删除邮件

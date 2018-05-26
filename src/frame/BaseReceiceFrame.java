@@ -1,7 +1,6 @@
 package frame;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -84,15 +83,15 @@ public class BaseReceiceFrame extends JInternalFrame implements MouseListener,
         scrollPane_1 = new JScrollPane();
         scrollPane_1.setPreferredSize(new Dimension(520, 190));
         mailContent = new JTextPane();// 可以用以图形方式表示的属性来标记的文本组件
-        HTMLEditorKit kit = new HTMLEditorKit();// 新建HTMLEditorKit
-        mailContent.setEditorKit(kit);// 设置EditorKit为HTMLEditorKit
-        mailContent.setContentType("text/html");
+        mailContent.setText("这里显示邮件内容");
+        //HTMLEditorKit kit = new HTMLEditorKit();// 新建HTMLEditorKit
+        //mailContent.setEditorKit(kit);// 设置EditorKit为HTMLEditorKit
+        //mailContent.setContentType("text/html");
         scrollPane_1.setViewportView(mailContent);
         panel.add(scrollPane_1, BorderLayout.CENTER);
 
         // 添加一个分割窗口
-        JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
-                scrollPane, panel);
+        JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, scrollPane, panel);
         splitPane.setOneTouchExpandable(true);// 在分隔条上提供一个 UI 小部件来快速展开/折叠分隔条
         splitPane.setDividerSize(10);// 设置分隔条的大小。
         getContentPane().add(splitPane, BorderLayout.CENTER);
@@ -122,6 +121,7 @@ public class BaseReceiceFrame extends JInternalFrame implements MouseListener,
         if (e.getClickCount() == 2) {// 双击时显示邮件
             if (selectRom != -1) {// 如果选择一行
                 doubleClick(selectRom);
+                //System.out.println("BBBBBBBBBBBBBBB");
             }
         } else if (e.getButton() == MouseEvent.BUTTON3) {
             if (selectRom >= 0 && selectRom < tableModel.getRowCount()) {// 判断选中行是否有效

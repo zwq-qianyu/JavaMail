@@ -141,8 +141,8 @@ public class SystemBickerTray extends Thread {
     }
 
     public void setFlag(boolean flag) {
-        //if (flag)// 如果有新邮件 播放声音
-            //new MyAudioPlayer().play();
+        if (flag)// 如果有新邮件 播放声音
+            new MyAudioPlayer().play();
         this.flag = flag;
     }
 

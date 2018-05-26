@@ -86,7 +86,7 @@ public class SendFrame extends JInternalFrame implements ActionListener,
         setIconifiable(true);// 是否使 JInternalFrame 变成一个图标
         setClosable(true);// 是否关闭
         setMaximizable(true);// 窗口最大化设置
-        setResizable(true);// 设置窗口课以调整大小
+        setResizable(true);
         setBounds(10, 10, 640, 600);// 设置界面的大小
         setVisible(true);
 
@@ -100,14 +100,14 @@ public class SendFrame extends JInternalFrame implements ActionListener,
         subject_Label = new JLabel();
         subject_Label.setText("主题：");
         // 收件人文本框
-        to_mail = new JTextField(80);
+        to_mail = new JTextField(40);
         to_mail.addFocusListener(this);
-        to_mail.setToolTipText("将收件人地址以逗号分隔");
+        //to_mail.setToolTipText("将收件人地址以逗号分隔");
         // 抄送文本框
-        copy_to = new JTextField(80);
+        copy_to = new JTextField(40);
         copy_to.addFocusListener(this);
         // 主题文本框
-        subjectTF = new JTextField(80);
+        subjectTF = new JTextField(40);
         JPanel setPanel = new JPanel();// 上半部
         setPanel.add(box());
         scrollPane = new JScrollPane();

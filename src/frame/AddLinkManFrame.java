@@ -45,20 +45,20 @@ public class AddLinkManFrame extends JInternalFrame implements ActionListener,
         nameLabel = new JLabel();
         nameLabel.setText("姓名：");
         getContentPane().add(nameLabel);
-        nameTF = new JTextField(50);
+        nameTF = new JTextField(30);
         getContentPane().add(nameTF);
 
         // 昵称
         nickNameLabel = new JLabel();
         nickNameLabel.setText("昵称：");
         getContentPane().add(nickNameLabel);
-        nickNameTF = new JTextField(50);
+        nickNameTF = new JTextField(30);
         getContentPane().add(nickNameTF);
         // 电子邮件
         emailAdressLabel = new JLabel();
         emailAdressLabel.setText("电子邮件：");
         getContentPane().add(emailAdressLabel);
-        emailAdressTF = new JTextField(50);
+        emailAdressTF = new JTextField(30);
         emailAdressTF.getDocument().addDocumentListener(this);
 
         linkmanList = new JTable();// 联系人列表
@@ -163,7 +163,11 @@ public class AddLinkManFrame extends JInternalFrame implements ActionListener,
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == add) {
-            linkmanEvent.addLinkman();// 添加联系人
+            linkmanEvent.addLinkman();      // 添加联系人
+            //清空输入框
+            nameTF.setText("");
+            nickNameTF.setText("");
+            emailAdressTF.setText("");
         } else if (e.getSource() == delete) {
             linkmanEvent.deleteLinkman(linkmanList.getSelectedRow());// 删除联系人
         } else if (e.getSource() == ok) {

@@ -58,7 +58,7 @@ public class MainFrame extends JFrame implements ActionListener, MouseListener {
     }
 
     public MainFrame() {
-        super("电子邮件");
+        super("📮浅鱼邮箱");
         MAINFRAME = this;
         this.setIconImage(EditorUtils.createIcon("email.png").getImage());
         desktopPane = new JDesktopPane();
@@ -66,8 +66,8 @@ public class MainFrame extends JFrame implements ActionListener, MouseListener {
         JMenuBar menuBar = new JMenuBar();
         this.setJMenuBar(menuBar);
 
-        final JMenu fileMenu = new JMenu("文件(F)");
-        mailMenu = new JMenu("邮件(M)");
+        final JMenu fileMenu = new JMenu("文件");
+        mailMenu = new JMenu("邮件");
         menuBar.add(fileMenu);
         menuBar.add(mailMenu);
 
@@ -106,8 +106,8 @@ public class MainFrame extends JFrame implements ActionListener, MouseListener {
         panelframe.add(tree, BorderLayout.NORTH);
 
         addLinkmanButton = new JButton();
-        addLinkmanButton.setText("联系人(C)");
-        addLinkmanButton.setIcon(EditorUtils.createIcon("linkman.gif"));
+        addLinkmanButton.setText("联系人");
+        //addLinkmanButton.setIcon(EditorUtils.createIcon("linkman.gif"));
         panel.add(addLinkmanButton, BorderLayout.NORTH);
         addLinkmanButton.addActionListener(this);// 注册添加联系人事件
         readLinkman = new ReadLinkmanXMl();
@@ -116,7 +116,7 @@ public class MainFrame extends JFrame implements ActionListener, MouseListener {
         scrollPane = new JScrollPane();
         panel.add(scrollPane, BorderLayout.CENTER);
         scrollPane.setViewportView(jl);// 在滚动面板中添加联系人
-        validate();
+        validate(); //验证
 
         labelbackground = new JLabel();
         labelbackground.setIcon(null); // 窗体背景
