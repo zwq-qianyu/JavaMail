@@ -390,6 +390,12 @@ public class SendFrame extends JInternalFrame implements ActionListener,
                     SendedMailTable.getSendedMailTable().setValues(toMan,
                             subject, attachArrayList, text, copy, sendMan);// 将邮件添加到已发送
                     message = "邮件已发送成功！";
+                    /*
+                    subjectTF.setText("");
+                    copy_to.setText("");
+                    to_mail.setText("");
+                    sendCotent.setText("");
+                    scrollPane.setViewportView(sendCotent);*/
                 } else {
                     message = "<html><h4>邮件发送失败！ 失败原因：</h4></html>\n" + message;
                 }
