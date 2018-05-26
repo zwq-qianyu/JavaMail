@@ -57,7 +57,8 @@ public class CheckNewMialUtil {
             e.printStackTrace();
         }
         try {
-            store.connect(pop3Server, username, pwd);
+            //System.out.println(pop3Server +" " + username + " " + pwd);
+            store.connect(pop3Server,110, username, pwd);
         } catch (MessagingException e) {
             e.printStackTrace();
         } // 登陆认证

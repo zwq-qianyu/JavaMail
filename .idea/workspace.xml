@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e70399-d099-4784-b4f1-e40212c7ecd1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/bickerTray/MyAudioPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkman.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linkman.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/AddLinkManFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/AddLinkManFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/BaseReceiceFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/ReceiveFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/ReceiveFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/frame/SendFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/frame/SendFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/mailutil/AttachFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/mailutil/AttachFile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/mailutil/AttachFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/mailutil/AttachFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/utils/ReceiveMailTable$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/utils/ReceiveMailTable$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaMail/utils/ReceiveMailTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaMail/utils/ReceiveMailTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/AddLinkManFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/AddLinkManFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/BaseReceiceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/BaseReceiceFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/ReceiveFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/ReceiveFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/SendFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/SendFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mailutil/AttachFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mailutil/AttachFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ReceiveMailTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ReceiveMailTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/loginBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/loginBg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loginBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/loginBg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mailutil/CheckNewMialUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mailutil/CheckNewMialUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,12 +19,10 @@
       <file leaf-file-name="AttachFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mailutil/AttachFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1264#1488#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,22 +31,38 @@
       <file leaf-file-name="MyAudioPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/MyAudioPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddLinkManFrame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddLinkManFrame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/frame/AddLinkManFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="161" column="12" lean-forward="true" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckNewMialUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mailutil/CheckNewMialUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckNewMail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/CheckNewMail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -79,7 +70,7 @@
       <file leaf-file-name="SystemBickerTray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="1755">
               <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
             </state>
           </provider>
@@ -118,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/utils/bickerTray/MyAudioPlayer.java" />
         <option value="$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java" />
         <option value="$PROJECT_DIR$/src/frame/AddLinkManFrame.java" />
+        <option value="$PROJECT_DIR$/src/mailutil/CheckNewMialUtil.java" />
       </list>
     </option>
   </component>
@@ -140,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,33 +148,15 @@
               <item name="JavaMail" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaMail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mailutil" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaMail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaMail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="bickerTray" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,14 +258,15 @@
       <updated>1527162448943</updated>
       <workItem from="1527162451953" duration="1640000" />
       <workItem from="1527254470925" duration="12874000" />
+      <workItem from="1527294753166" duration="947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14514000" />
+    <option name="totallyTimeSpent" value="15461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -304,8 +278,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27846155" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -315,8 +289,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -332,6 +306,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mailutil/AttachFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/MyAudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/AddLinkManFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="161" column="12" lean-forward="true" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -391,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#1014#1022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/CheckNewMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/SendedFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -477,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#1014#1022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,9 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -497,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,9 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="124" column="14" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,39 +578,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mailutil/AttachFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1264#1488#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/SystemBickerTray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="1755">
           <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/bickerTray/MyAudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/AddLinkManFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="161" column="12" lean-forward="true" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mail.jar!/javax/mail/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mail.jar!/com/sun/mail/pop3/POP3Store.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/CheckNewMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mailutil/CheckNewMialUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
